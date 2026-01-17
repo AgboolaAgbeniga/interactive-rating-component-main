@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="A clean, interactive rating component built with HTML, CSS, and JavaScript. A Frontend Mentor challenge solution by Agboola Agbeniga.">
+  <meta name="keywords"
+    content="Frontend Mentor, Interactive Rating Component, HTML, CSS, JavaScript, Web Development, UI/UX">
+  <meta name="author" content="Agboola Agbeniga">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://agboola-portfolio.vercel.app/">
+  <meta property="og:title" content="Interactive Rating Component | Frontend Mentor">
+  <meta property="og:description"
+    content="An interactive rating component that allows users to select and submit a rating. Built with focus on responsiveness and clean UI.">
+  <meta property="og:image" content="./preview.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://agboola-portfolio.vercel.app/">
+  <meta property="twitter:title" content="Interactive Rating Component | Frontend Mentor">
+  <meta property="twitter:description"
+    content="An interactive rating component that allows users to select and submit a rating. Built with focus on responsiveness and clean UI.">
+  <meta property="twitter:image" content="./preview.jpg">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Interactive Rating Component | Frontend Mentor challenge</title>
+</head>
+
+<body>
+
+  <main class="card">
+    <!-- Rating state start -->
+    <section id="rating-state" class="card--rating">
+      <div class="star-container">
+        <img src="./images/icon-star.svg" alt="star icon">
+      </div>
+      <h1>How did we do?</h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+
+      <div class="rating-container">
+        <button class="rating-btn" type="button">1</button>
+        <button class="rating-btn" type="button">2</button>
+        <button class="rating-btn" type="button">3</button>
+        <button class="rating-btn" type="button">4</button>
+        <button class="rating-btn" type="button">5</button>
+      </div>
+
+      <button id="submit-btn" class="submit-btn">Submit</button>
+    </section>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <section id="thank-you-state" class="card--thank-you hidden">
+      <img src="./images/illustration-thank-you.svg" alt="thank you illustration" class="thank-you-img">
+      <div class="selection-badge">
+        You selected <span id="selected-rating">0</span> out of 5
+      </div>
+      <h2>Thank you!</h2>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
+    </section>
+    <!-- Thank you state end -->
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://agboola-portfolio.vercel.app/">Agboola Agbeniga</a>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
