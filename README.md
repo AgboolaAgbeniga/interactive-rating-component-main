@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/yourusername/interactive-rating-component)
-- Live Site URL: [Vercel Demo](https://agboola-portfolio.vercel.app/)
+- Solution URL: [GitHub Repository](https://github.com/AgboolaAgbeniga/interactive-rating-component-main)
+- Live Site URL: [Vercel Demo](https://interactive-rating-component-main-nine-green.vercel.app/)
 
 ## My process
 
